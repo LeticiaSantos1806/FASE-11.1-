@@ -1,0 +1,541 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.cabecario {
+    height: 120px;
+    width: 100%;
+    /* border: 1px solid red; */
+     background-color: rgb(229, 255, 206);
+}
+
+
+.logotipo {
+    /* border: 1px solid red; */
+    height: 130px;
+    width: 270px;
+    margin-left: 90px;
+}
+
+.insta {
+    width: 30px ;
+    float: right;
+    margin-top: 70px;
+    margin-right: 100px;
+    /* border: solid red 1px; */
+}
+
+.tt {
+    width: 30px ;
+    float: right;
+    margin-top: 70px;
+    margin-right: 40px;
+    border-radius: 5px;
+}
+
+.face {
+    width: 30px ;
+    float: right;
+    margin-top: 70px;
+    margin-right: 40px;
+    border-radius: 5px;
+}
+
+.abas {
+    height: 90px;
+    /* border: 1px solid red; */
+    width: 85%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(7, 233, 233);
+    margin: 0 auto;
+    border-radius: 2px 2px 23px 23px;
+}
+
+.links {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 24px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+.links:hover {
+   cursor: pointer;
+   text-decoration: underline;
+
+}
+.intro-ong > h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+    color: rgb(10, 155, 155); ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.intro-ong > img {
+    margin-top: 50px;
+    margin-left: 415px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 70px;
+    color: rgb(10, 155, 155); ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.txt-ong{
+    display: flex;
+    margin-top: 30px;
+    width: 1500px;
+}
+
+.motivo1 {
+    max-width: 450px;
+    display: flex;
+    margin-left: 110px;
+    margin-right: 50px;
+}
+
+.motivo1 > h1 {
+   color: rgb(10, 155, 155);
+}
+
+.motivo1 > p {
+    padding-top: 10px;
+    margin-left: 5px;
+    font-size: 23px;
+    margin-right: 10px;
+}
+
+
+.motivo2 {
+    max-width: 450px;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.motivo2 > h1 {
+    color: rgb(10, 155, 155);
+}
+
+.motivo2 > p {
+    padding-top: 10px;
+    margin-left: 5px;
+    font-size: 23px;
+}
+
+.motivo3 {
+    max-width: 450px;
+    display: flex;
+    margin-left: 50px;
+    
+}
+
+.motivo3 > h1 {
+    color: rgb(10, 155, 155);
+}
+
+.motivo3 > p {
+    padding-top: 10px;
+    margin-left: 5px;
+    font-size: 23px;
+}
+
+.final-motivo {
+    margin-top: 40px;
+    
+}
+
+.final-motivo > h2 {
+    text-align: center;
+}
+
+.txt-adoçao {
+    margin-top: 100px;
+    max-width: 1100px;
+    text-align: center;
+    margin-left: 250px;
+}
+
+.txt-adoçao > h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 70px;
+    color: rgb(10, 155, 155); 
+}
+
+.txt-adoçao > p {
+    margin-top: 20px;
+    font-size: 25px;
+    
+}
+
+.ongs-intro > h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 70px;
+    color: rgb(10, 155, 155); 
+}
+
+.ongs-intro > p {
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+.box1-ong {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-top: 70px;
+    height: 650px;
+    display: flex
+}
+
+.cao-sem-dono {
+    width: 450px;
+    height: 550px;
+    background-color: rgb(165, 238, 238);
+    border-radius: 20px;
+    border: solid 1px black;
+    margin-left: 23px;
+}
+
+.cao-sem-dono > img {
+    margin-left: 115px;
+    margin-top: 40px;
+    height: 110px;
+}
+
+.nome-ong {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.endereço-ong {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.telefone-ong {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.horario-ong {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.endereço-ong {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.link-ong  {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.link-ong > a {
+    text-decoration: none;
+    color: black;
+}
+
+.link-ong > a:hover {
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.canto-da-terra {
+    max-width: 450px;
+    height: 550px;
+    background-color: rgb(165, 238, 238);
+    border-radius: 20px;
+    border: solid 1px black;
+    margin-left: 50px;
+}
+
+.canto-da-terra > img {
+    margin-left: 132px;
+    margin-top: 40px;
+    height: 120px;
+}
+
+.ong-sos{
+    max-width: 450px;
+    height: 550px;
+    background-color: rgb(165, 238, 238);
+    border-radius: 20px;
+    border: solid 1px black;
+    margin-left: 50px;
+}
+
+.ong-sos > img {
+    margin-left: 160px;
+    margin-top: 40px;
+    height: 120px;
+}
+
+.box2-ong {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-top: 70px;
+    height: 650px;
+    display: flex
+}
+
+.viralata{
+    max-width: 450px;
+    height: 550px;
+    background-color: rgb(165, 238, 238);
+    border-radius: 20px;
+    border: solid 1px black;
+    margin-left: 23px;
+}
+
+.viralata > img {
+    margin-left: 165px;
+    margin-top: 40px;
+    height: 120px;
+}
+
+.natureza-em-forma{
+    max-width: 450px;
+    height: 550px;
+    background-color: rgb(165, 238, 238);
+    border-radius: 20px;
+    border: solid 1px black;
+    margin-left: 50px;
+}
+
+.natureza-em-forma > img {
+    margin-left: 85px;
+    margin-top: 40px;
+    height: 120px;
+}
+
+.natureza-em-forma > .nome-ong {
+    font-size: 15px;
+} 
+
+.patinhas-que-brilham {
+    max-width: 450px;
+    height: 550px;
+    background-color: rgb(165, 238, 238);
+    border-radius: 20px;
+    border: solid 1px black;
+    margin-left: 50px;
+}
+
+.patinhas-que-brilham > img {
+    margin-left: 110px;
+    margin-top: 40px;
+    height: 130px;
+}
+
+.box3-ong {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-top: 70px;
+    height: 650px;
+    display: flex
+}
+
+.uipa {
+    max-width: 450px;
+    height: 550px;
+    background-color: rgb(165, 238, 238);
+    border-radius: 20px;
+    border: solid 1px black;
+    margin-left: 23px;
+}
+
+.uipa > img {
+    margin-left: 165px;
+    margin-top: 40px;
+    height: 120px;
+}
+
+.uipa > .nome-ong {
+    padding: 10px;
+    font-size: 13px;
+}
+
+.açao-provida {
+    max-width: 450px;
+    height: 550px;
+    background-color: rgb(165, 238, 238);
+    border-radius: 20px;
+    border: solid 1px black;
+    margin-left: 50px;
+}
+
+.açao-provida > img {
+    margin-left: 65px;
+    margin-top: 40px;
+    height: 120px;
+}
+
+.deixe-viver {
+    max-width: 450px;
+    height: 550px;
+    background-color: rgb(165, 238, 238);
+    border-radius: 20px;
+    border: solid 1px black;
+    margin-left: 50px;
+}
+
+.deixe-viver > img {
+    margin-left: 155px;
+    margin-top: 40px;
+    height: 130px;
+}
+
+.rodape{
+    margin-top: 40px;
+    background-color: rgb(229, 255, 206);
+    height: 150px;
+    width: 100%;
+    border-top: 2px solid black;
+    }
+    
+    .logotipo-rodape{
+    height: 70px;
+    width: 200px;
+    align-items: right;
+    margin-left: 689px;
+    margin-top: 15px;
+    /* border: solid red 1px; */
+    }
+    
+    .insta-rodape{
+    width: 30px ;
+    float: right;
+    margin-top: 10px;
+    margin-right: 680px;
+    /* border: solid red 1px; */
+    }
+    
+    .tt-rodape{
+    width: 30px ;
+    float: right;
+    margin-top: 10px;
+    margin-right: 70px;
+    /* border: solid red 1px; */
+    }
+    
+    .face-rodape{
+    width: 30px ;
+    float: right;
+    margin-top: 10px;
+    margin-right: 70px;
+    /* border: solid red 1px; */
+    }
+@media screen and (max-width: 1305px){
+    .intro-ong > img {
+        margin-left: 260px;
+    }
+    .txt-ong {
+        max-width: 1100px;
+        margin-left: 80px;
+    }
+    .motivo1 {
+        margin-left: 10px;
+    }
+    .motivo2 {
+        margin-left: 10px;
+    }
+    .motivo3 {
+        margin-left: 15px;
+    }
+    .txt-adoçao {
+        max-width: 1100px;
+        margin-left: 80px;  
+        text-align: justify;
+    }
+    .cao-sem-dono{
+        max-width: 366px;
+    }
+    .cao-sem-dono > img {
+        margin-left: 70px;
+    }
+    .canto-da-terra{
+        max-width: 366px;
+    }
+    .canto-da-terra > img {
+        margin-left: 100px;
+    }
+    .ong-sos {
+        max-width: 366px;
+    }
+    .ong-sos > img {
+        margin-left: 135px;
+    }
+    .viralata {
+        max-width: 366px;
+    }
+    .viralata > img {
+        margin-left: 122px;
+    }
+    .natureza-em-forma {
+        max-width: 366px;
+    }
+    .natureza-em-forma > img {
+        margin-left: 50px;
+    }
+    .patinhas-que-brilham {
+        max-width: 366px;
+    }
+    .patinhas-que-brilham > img {
+        margin-left: 80px;
+    }
+    .uipa{
+        max-width: 366px;
+    }
+    .uipa > img {
+        margin-left: 120px;
+    }
+    .uipa > .link-ong{
+        margin-top: -15px;
+    }
+    .açao-provida{
+        max-width: 366px;
+        font-size: 14px;
+    }
+    .açao-provida > img {
+        margin-left: 10px;
+    }
+    .deixe-viver{
+        max-width: 366px;
+        font-size: 12px;
+    }
+    .deixe-viver > img {
+        margin-left: 130px;
+    }
+    .deixe-viver > .link-ong{
+        margin-top: -25px;
+    }
+    .logotipo-rodape {
+        margin-left: 535px;
+    }
+    .insta-rodape {
+        margin-right: 513px;
+    }
+}

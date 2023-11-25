@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+.cabecario {
+    height: 120px;
+    width: 100%;
+    /* border: 1px solid red; */
+     background-color: rgb(229, 255, 206);
+}
+
+
+.logotipo {
+    /* border: 1px solid red; */
+    height: 130px;
+    width: 270px;
+    margin-left: 90px;
+}
+
+.insta {
+    width: 30px ;
+    float: right;
+    margin-top: 70px;
+    margin-right: 100px;
+    /* border: solid red 1px; */
+}
+
+.tt {
+    width: 30px ;
+    float: right;
+    margin-top: 70px;
+    margin-right: 40px;
+    border-radius: 5px;
+}
+
+.face {
+    width: 30px ;
+    float: right;
+    margin-top: 70px;
+    margin-right: 40px;
+    border-radius: 5px;
+}
+
+.abas {
+    height: 90px;
+    width: 85%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(7, 233, 233);
+    margin: 0 auto;
+    border-radius: 2px 2px 23px 23px;
+}
+
+.links {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 24px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+.links:hover {
+   cursor: pointer;
+   text-decoration: underline;
+
+}
+.texto {
+    text-align: center;
+    color: rgb(106, 155, 155);
+}
+.topicos {
+    height: 2530px;
+    max-width: 1070px;
+    border-radius: 30px;
+    background-color:rgb(229, 255, 206);;
+    margin: 0 auto;
+    
+}
+.padrao {
+    display: inline-block;
+    margin: 50px;
+    text-align: center;
+    /* border: 1px solid red; */
+    /* margin-right: 40px; */
+}
+.padrao img{
+    border-radius: 80px;
+    margin-left: 15px;
+    margin-right: 14px;
+}
+.padrao h3{
+    color: rgb(10, 155, 155);
+   /* /font-family: 'Times New Roman', Times, serif;*/
+    width: 100%;
+    text-align: center;
+    /* max-width: 175px; */
+    /* border: 1px solid red; */
+}
+.rodape{
+    margin-top: 40px;
+     background-color: rgb(229, 255, 206);
+    height: 150px;
+    width: 100%;
+    border-top: 2px solid black;
+  }
+  
+  .logotipo-rodape{
+    height: 70px;
+    width: 200px;
+    align-items: right;
+    margin-left: 689px;
+    margin-top: 15px;
+    /* border: solid red 1px; */
+  }
+  
+  .insta-rodape{
+    width: 30px ;
+    float: right;
+    margin-top: 10px;
+    margin-right: 680px;
+    /* border: solid red 1px; */
+  }
+  
+  .tt-rodape{
+    width: 30px ;
+    float: right;
+    margin-top: 10px;
+    margin-right: 70px;
+    /* border: solid red 1px; */
+  }
+  
+  .face-rodape{
+    width: 30px ;
+    float: right;
+    margin-top: 10px;
+    margin-right: 70px;
+    /* border: solid red 1px; */
+  }
+  @media screen and (max-width: 1305px){
+    .box-yt > iframe {
+      margin-left: 70px;
+      margin-top: 20px;
+    }
+  
+    .logotipo-rodape {
+      margin-left: 535px;
+    }
+    
+    .insta-rodape {
+      margin-right: 513px;
+    }
+  }
+
+  #search-form {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input, button {
+    padding: 5px;
+}
+
+

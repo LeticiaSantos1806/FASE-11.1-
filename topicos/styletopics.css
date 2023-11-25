@@ -1,0 +1,341 @@
+*{  
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.cabecario {
+    height: 120px;
+    width: 100%;
+     background-color: rgb(229, 255, 206);
+}
+
+.logotipo {
+    height: 130px;
+    width: 270px;
+    margin-left: 90px;
+}
+
+.insta {
+    width: 30px ;
+    float: right;
+    margin-top: 70px;
+    margin-right: 100px;
+}
+
+.tt {
+    width: 30px ;
+    float: right;
+    margin-top: 70px;
+    margin-right: 40px;
+    border-radius: 5px;
+}
+
+.face {
+    width: 30px ;
+    float: right;
+    margin-top: 70px;
+    margin-right: 40px;
+    border-radius: 5px;
+}
+
+.abas {
+    height: 90px;
+    width: 85%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(7, 233, 233);
+    margin: 0 auto;
+    border-radius: 2px 2px 23px 23px;
+}
+
+.links {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 24px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+.links:hover {
+   cursor: pointer;
+   text-decoration: underline;
+  
+}
+
+.foto > h1 {
+    font-size: 45px;
+}
+.conteudo {
+    color: rgb(106, 155, 155);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 50px;
+}
+.foto {
+    text-align: center;
+}
+.foto img {
+    border-radius: 18px;
+}
+.title {
+    display: inline-block;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-color: #c58d4375; */
+    padding: 20px;
+    max-width: 1000px; 
+    max-height: 3000px; 
+    border-radius: 35px;
+}
+
+.title > h1 {
+    font-size: 30px;
+}
+.boxtxt, .boxtxt1 , .boxtxt2, .boxtxt3, .boxtxt4, .boxtxt5{
+    text-align: justify;
+    color: black;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+
+
+.conteudo1 {
+    /* background-color: #c58d4375; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 35px;
+    max-width: 100%;
+    padding: 10px;
+    margin: 50px;
+    line-height: 25px;
+}
+.conteudo1 h1{
+    text-align: center;
+}
+
+.boxtxt2 {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.img {
+    border-radius: 20px;
+	display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+    box-shadow: 20px color black;
+}
+
+
+.titulo{
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    /* margin-left: 59%;
+    margin-right: 14%; */
+    margin-top: 10px;
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+.subtitulo-raças {
+    color: black;
+    font-size: 25px;
+}
+
+.box-caracteristicas {
+    border: solid 1px rgb(7, 233, 233);
+    border-radius: 20px ;
+    max-width: 750px;
+    margin: 0 auto;
+    height: 570px;
+    padding: 20px;
+    background-color: rgb(229, 255, 206);
+    margin-top: 30px;
+}
+
+
+.chart-blocos{
+    max-width: 750px;
+    padding-top: 0 auto;
+    padding: 5px;
+    border-radius: 2px;
+    margin: 0 auto;
+    padding-right: 50px;
+    display: flex;
+}
+
+.chart-blocos > span{
+    margin-right: 200px;
+    /* border: 1px solid red; */
+    width: 300px;
+    float: left;
+    margin-left: 70px;
+    font-size: 20px;
+    color: black;
+}
+
+.caracteristicas ul li {
+      margin-right: 8px;
+      width: 18px;
+      height: 18px;
+      display: inline-block;
+      border: 2px solid #13bcdb; 
+      background-color: white;
+
+}
+
+.caracteristicas ul li.fillup {
+      background: #13bcdb;
+}
+
+.conteudo2 {
+    /* background-color: #c58d4375; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 35px;
+    margin: 50px;
+    padding: 10px;
+    max-width: 100%;
+    line-height: 30px;
+}
+.conteudo2 h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.box-conteudo2 {
+    display: flex;
+    margin-top: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.boxtxt3 {
+    max-width: 700px;
+    margin: 0 auto;
+    color: black;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: justify;
+    line-height: 30px;
+
+}
+
+.img{
+    margin-top: 30px;
+    height: 350px;
+}
+
+.conteudo3 h1 {
+    text-align: center;
+}
+
+.conteudo3 {
+    display: inline-block;
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 40px;
+    max-width: 1200px; 
+    border-radius: 35px;
+    
+}
+
+
+.box-conteudo3 {
+    display: flex;
+    margin-top: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.box-conteudo3 > img {
+    margin-top: 70px;
+    height: 300px;
+}
+
+.boxtxt4 {
+    max-width: 700px;
+    margin: 0 auto;
+    color: black;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: justify;
+    line-height: 30px;
+    margin-left: 20px;
+
+}
+
+.conteudo4 {
+    /* background-color: #c58d4375; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 35px;
+    margin: 80px;
+    padding: 10px;
+    max-width: 40%;
+    line-height: 30px;
+    margin-left: 150px;
+}
+.conteudo4 h1 {
+    text-align: center;
+}
+.img-filhote {
+    border-radius: 35px;
+    float: right;
+    margin-top: 100px;
+    box-shadow: 20px color black;
+    margin-right: 130px;
+    height: 300px;
+}
+.rodape{
+    margin-top: 40px;
+     background-color: rgb(229, 255, 206);
+    height: 150px;
+    width: 100%;
+    border-top: 2px solid black;
+    }
+    
+    .logotipo-rodape{
+    height: 70px;
+    width: 200px;
+    align-items: right;
+    margin-left: 689px;
+    margin-top: 15px;
+    /* border: solid red 1px; */
+    }
+    
+    .insta-rodape{
+    width: 30px ;
+    float: right;
+    margin-top: 10px;
+    margin-right: 680px;
+    /* border: solid red 1px; */
+    }
+    
+    .tt-rodape{
+    width: 30px ;
+    float: right;
+    margin-top: 10px;
+    margin-right: 70px;
+    /* border: solid red 1px; */
+    }
+    
+    .face-rodape{
+    width: 30px ;
+    float: right;
+    margin-top: 10px;
+    margin-right: 70px;
+    /* border: solid red 1px; */
+    }
+@media screen and (max-width: 1305px){
+.logotipo-rodape {
+ margin-left: 535px;
+}       
+.insta-rodape {
+ margin-right: 513px;
+}
+}
